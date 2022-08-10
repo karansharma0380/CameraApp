@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="video-conatiner">
+        <video autoplay></video>
+    </div>
+    <!-- <audio autoplay controls></audio> -->
+    <button id="record">
+        <div class="inner-button">
+
+        </div>
+    </button>
+    <button id="capture">
+        <div class="inner-button2">
+            
+        </div>
+    </button>
+    <div class="filter-container">
+        <div class="filters" style="background-color: #ff6b6b82"></div>
+        <div class="filters" style="background-color: #48dafb4b"></div>
+        <div class="filters" style="background-color: #ff9ff265"></div>
+        <div class="filters" style="background-color: #ff793f59"></div>
+        <div class="filters" style="background-color: #ffb04248"></div>
+        <div class="filters"></div>
+    </div>
+    <div class="zoom-in-out-container">
+        <div class="zoom-in">+</div>
+        <div class="zoom-out">-</div>
+    </div>
+    <button id="gallery"><img src="https://img.icons8.com/material-rounded/48/000000/gallery.png"/></button>
+    <!-- As img tag used for image, video tag is used for showing video -->
+    <!-- autoplay= plays video as soon as it gets ready, no pause -->
+    <!-- controls = gives controls on player like play/pause, fullscreen -->
+    <!-- src="" = source of the video to be played -->
+    <script src="dbScript.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

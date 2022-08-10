@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+.container{
+    background-color: #e5e0db;
+    background-image: gray;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    padding: 30px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.media-card{
+    height: 25rem;
+    width: 22rem;
+    border: 1px solid;
+}
+
+.media-container{
+    height: 80%;
+    width: 100%;
+    border: 1px solid;
+}
+
+.action-container{
+    height: 20%;
+    width: 100%;
+    border: 1px solid;
+}
+
+.action-container button{
+    width: 100%;
+    height: 50%;
+    font-size: 1.5rem;
+}
+
+.media-gallery{
+    height: 100%;
+    width: 100%;
+}
+
+.media-download {
+    background: linear-gradient(90deg, #9ebd13 0%, #008552 100%);
+  }
+  
+.media-delete {
+background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+}
+
+#back{
+    position: fixed;
+    height: 5rem;
+    width: 5rem;
+    bottom: 5rem;
+    right: 2rem;
+    cursor: pointer;
+}
